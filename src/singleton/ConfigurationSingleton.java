@@ -34,9 +34,9 @@ public class ConfigurationSingleton {
         Properties prop = PropertiesUtil.loadProperty(CONFIGURATION_PROP);
         this.host = prop.getProperty(DB_VARIABLES_PROP[0]);
         this.port = prop.getProperty(DB_VARIABLES_PROP[1]);
-        this.db = prop.getProperty(DB_VARIABLES_PROP[1]);
-        this.user = prop.getProperty(DB_VARIABLES_PROP[1]);
-        this.password = prop.getProperty(DB_VARIABLES_PROP[1]);
+        this.db = prop.getProperty(DB_VARIABLES_PROP[2]);
+        this.user = prop.getProperty(DB_VARIABLES_PROP[3]);
+        this.password = prop.getProperty(DB_VARIABLES_PROP[4]);
 
 
     }
